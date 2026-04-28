@@ -1,0 +1,84 @@
+name: Bug Report
+description: Something is broken or behaving unexpectedly.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing! A few questions to help reproduce.
+
+  - type: input
+    id: version
+    attributes:
+      label: LocalML version
+      description: The titlebar / About screen shows it (e.g. `0.1.5`).
+      placeholder: "0.1.5"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - Windows
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Linux
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: OS version
+      placeholder: "Windows 11 23H2 / macOS 14.4 / Ubuntu 24.04"
+
+  - type: dropdown
+    id: accelerator
+    attributes:
+      label: Accelerator chosen during setup
+      options:
+        - GPU (NVIDIA / Apple Silicon)
+        - CPU only
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: |
+        What did you do? What did you expect? What happened instead?
+      placeholder: |
+        1. Click 'Model Hub'
+        2. Search for 'whisper-tiny'
+        3. Click Download
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: Error message / console output
+      description: |
+        If the app showed an error, paste it here. If it crashed, the OS may have
+        a crash report — those are helpful too.
+      render: shell
+
+  - type: textarea
+    id: model
+    attributes:
+      label: Model ID (if relevant)
+      description: |
+        e.g. `openai/whisper-tiny`, `stabilityai/stable-diffusion-xl-base-1.0`
+      placeholder: "facebook/sam-vit-base"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Screenshots, logs, GPU model, RAM, your setup — whatever helps.

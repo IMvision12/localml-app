@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download LocalML
+    url: https://localml.vercel.app
+    about: Get the latest installer for Windows, macOS, or Linux.
+  - name: Discussion / question
+    url: https://github.com/IMvision12/localml-app/discussions
+    about: For open-ended questions, ideas, or "how do I…" — please use Discussions instead of Issues.

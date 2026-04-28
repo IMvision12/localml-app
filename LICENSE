@@ -1,0 +1,35 @@
+LocalML — Binary Distribution License
+
+Copyright (c) 2026 Gitesh Chawda
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of the LocalML binary distribution (the "Software"), to use, copy, install,
+and redistribute the Software for any purpose.
+
+Source code for the Software is not included in this distribution and remains
+the property of the copyright holder.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+---
+
+The LocalML binary embeds and downloads the following third-party components,
+which are licensed under their own terms (this license does not modify those
+terms):
+
+  - Electron        — MIT License
+  - Python          — Python Software Foundation License
+                      (via astral-sh/python-build-standalone)
+  - uv              — MIT or Apache 2.0 (Astral)
+  - PyTorch         — BSD-3-Clause
+  - transformers    — Apache 2.0 (Hugging Face)
+  - diffusers       — Apache 2.0 (Hugging Face)
+
+Models downloaded through LocalML from the Hugging Face Hub are governed
+by the licenses chosen by their respective publishers, not this license.

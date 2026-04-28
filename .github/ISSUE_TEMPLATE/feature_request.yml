@@ -1,0 +1,41 @@
+name: Feature Request
+description: Suggest a new feature, model family, or task to support.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting! Be as concrete as you can — features with a
+        clear "I want to do X for Y reason" are easiest to act on.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the use case. What were you hoping LocalML would let you do?
+      placeholder: |
+        I want to run OCR on scanned PDFs locally without uploading them.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed feature
+      description: What would you like to see in the app?
+    validations:
+      required: true
+
+  - type: input
+    id: model
+    attributes:
+      label: Specific model(s) you'd want supported (if applicable)
+      description: HF model ID, ideally
+      placeholder: "microsoft/trocr-large-handwritten"
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Other tools or workarounds you've tried, and what didn't work.
