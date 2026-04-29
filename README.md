@@ -2,7 +2,7 @@
 
 > Browse the HuggingFace Hub. Download with a click. Run locally — detection, segmentation, classification, depth, OCR, SAM, VLMs, ASR, TTS, diffusion. **No cloud, no upload, your data never leaves your GPU.**
 
-**Website**: https://localml.vercel.app
+**Website**: https://www.localml.tech/
 
 ---
 
