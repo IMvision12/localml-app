@@ -14,7 +14,6 @@ This is the **public home** of the LocalML desktop app — release artifacts, bu
 - Bugs and feature requests live (see [Issues](../../issues))
 - Users can find the app and read its license
 
-If you found this repo first, head over to **[localml.vercel.app](https://localml.vercel.app)** to download.
 
 ## What LocalML does
 
@@ -34,7 +33,7 @@ A desktop app (Windows, macOS, Linux) for running open-source ML models locally:
 
 ## Installing
 
-1. Visit [localml.vercel.app](https://localml.vercel.app) and download the installer for your OS.
+1. Visit [localml.tech](https://www.localml.tech) and download the installer for your OS.
 2. Run the installer.
 3. **First launch only**: the app downloads a portable Python runtime (~30 MB) and installs PyTorch + transformers (~2–5 GB depending on CPU/GPU pick). Wait ~5 minutes.
 4. Browse the Hub, install a model, run.
