@@ -1,19 +1,20 @@
-# LocalML
+<p align="center">
+  <img src="assets/logo.png" alt="LocalML" width="120" height="120"/>
+</p>
 
-> Browse the HuggingFace Hub. Download with a click. Run locally — detection, segmentation, classification, depth, OCR, SAM, VLMs, ASR, TTS, diffusion. **No cloud, no upload, your data never leaves your GPU.**
+<h1 align="center">LocalML</h1>
 
-**Website**: https://www.localml.tech/
+<p align="center">
+  Browse the HuggingFace Hub. Download with a click. Run locally: detection, segmentation, classification, depth, OCR, SAM, VLMs, ASR, TTS, diffusion. <b>No cloud, no upload, your data never leaves your GPU.</b>
+</p>
+
+<p align="center">
+  <a href="https://www.localml.tech/">Website</a> ·
+  <a href="../../releases">Releases</a> ·
+  <a href="../../issues">Issues</a>
+</p>
 
 ---
-
-## What is this repo?
-
-This is the **public home** of the LocalML desktop app — release artifacts, bug reports, feature requests. The application's source code is private; this repo is where:
-
-- Installers are published (see [Releases](../../releases))
-- Bugs and feature requests live (see [Issues](../../issues))
-- Users can find the app and read its license
-
 
 ## What LocalML does
 
@@ -48,7 +49,7 @@ macOS may refuse to open the app on first run. Right-click the app in `Applicati
 
 ### Linux
 
-The `.AppImage` is portable — `chmod +x` it and double-click, or run from the terminal.
+The `.AppImage` is portable. `chmod +x` it and double-click, or run from the terminal.
 
 ## Filing a bug
 
@@ -65,7 +66,7 @@ Open a [new issue](../../issues/new/choose) and pick the **Bug Report** template
 
 ## License
 
-The LocalML binary distribution is provided under the terms in [`LICENSE`](./LICENSE) — short version: free to use for any purpose, no warranties.
+The LocalML binary distribution is MIT licensed. See [`LICENSE`](./LICENSE). Short version: free to use, modify, redistribute. No warranties.
 
 ## Status
 
