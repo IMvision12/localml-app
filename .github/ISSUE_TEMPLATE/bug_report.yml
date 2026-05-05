@@ -66,7 +66,7 @@ body:
       label: Error message / console output
       description: |
         If the app showed an error, paste it here. If it crashed, the OS may have
-        a crash report — those are helpful too.
+        a crash report. Those are helpful too.
       render: shell
 
   - type: textarea
@@ -81,4 +81,4 @@ body:
     id: notes
     attributes:
       label: Anything else
-      description: Screenshots, logs, GPU model, RAM, your setup — whatever helps.
+      description: Screenshots, logs, GPU model, RAM, your setup. Whatever helps.

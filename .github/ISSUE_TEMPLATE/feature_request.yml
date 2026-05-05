@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting! Be as concrete as you can — features with a
+        Thanks for suggesting! Be as concrete as you can. Features with a
         clear "I want to do X for Y reason" are easiest to act on.
 
   - type: textarea
