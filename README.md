@@ -27,8 +27,7 @@ A desktop app (Windows, macOS, Linux) for running open-source ML models locally:
 | Speech | Whisper, MMS-TTS, SpeechT5, Bark |
 | Text | Llama, Mistral, Qwen, Phi, Gemma, DeepSeek |
 | Diffusion | SD 1.5/XL, FLUX, SDXL-Turbo, Kandinsky |
-| Embeddings | BGE, E5, all-MiniLM, BERT |
-| Depth / OCR / DocQA | DPT, Depth Anything, TrOCR, LayoutLM |
+| Depth / OCR / DocQA | DPT, Depth Anything, TrOCR, LayoutLMv3 |
 
 200+ model families supported via the underlying transformers + diffusers runtime.
 
